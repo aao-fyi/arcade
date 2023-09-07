@@ -1,0 +1,2 @@
+https://gitlab.com/aao-fyi/2048.git
+https://gitlab.com/aao-fyi/clickinbad.git
