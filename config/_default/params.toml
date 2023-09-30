@@ -1,0 +1,19 @@
+description = 'Forks of retro games to-be, pickled.'
+
+[postCSS]
+  state = true
+
+[bootstrap]
+  javascript = false
+
+[header]
+  state = true
+  brandLogo = false
+  brandText = false
+  fixedTop = false
+
+[copyright]
+  link = 'https://aao.fyi/'
+
+[manifest]
+  state = false

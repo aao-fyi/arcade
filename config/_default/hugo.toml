@@ -17,36 +17,12 @@ enableRobotsTXT = true
 [minify]
   minifyOutput = true
 
-# Build
-[build]
-  # PostCSS
-  writeStats = true
-
 # Module
 [module]
   # Version
   [module.hugoVersion]
     extended = true
     min = '0.111.0'
-
-[params]
-  description = ''
-  # PostCSS
-  postCSS = false
-  # Bootstrap JS
-  bootstrapJS = true
-  # Navbar
-  navbarBrandLogo = false
-  navbarBrandText = false
-  navbarFixedTop = false
-  # Header
-  headerState = false
-  # Footer
-  footerState = false
-  copyrightLink = 'https://aao.fyi/'
-  # Manifest
-  manifestJSON = false
-
 
 # Footer
 [menu]
