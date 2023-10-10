@@ -9,7 +9,7 @@ copyright = 'aao.fyi'
 
 # Features
 disableHugoGeneratorInject = false
-disableKinds = ['RSS','taxanomy','term']
+disableKinds = ['RSS','taxonomy','term']
 enableGitInfo = true
 enableRobotsTXT = true
 
