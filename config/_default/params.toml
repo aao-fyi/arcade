@@ -1,7 +1,7 @@
 description = 'Forks of retro games to-be, pickled.'
 
 [postCSS]
-  state = true
+  state = false
 
 [bootstrap]
   javascript = false
