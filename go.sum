@@ -1,4 +1,4 @@
-gitlab.com/aao-fyi/shock v0.0.0-20231007022955-d878421f19e0 h1:Eq5uzZfyQ4T8re+OZI8/68ISzhZqrgjwzjvb5T9BZEs=
-gitlab.com/aao-fyi/shock v0.0.0-20231007022955-d878421f19e0/go.mod h1:fFZ6+wPnTLzXmJmJ69o+MdZyjBbWEeMCFAb6CYFubQs=
-gitlab.com/aao-fyi/shock v0.0.0-20231024075900-622440ed8b21 h1:xyxSe+cduhg2QEIJUVNalQY/8ooilDDy1OZ0mKeXKys=
-gitlab.com/aao-fyi/shock v0.0.0-20231024075900-622440ed8b21/go.mod h1:E1rQHR817VPn/FSPYs76qrZge85MniflIm0nwT9i5G4=
+gitlab.com/aao-fyi/project-logos v0.0.0-20231003235337-0d4d7b372a99 h1:ocjeOQ6pFC/3fxIdNkyPL8nfJYHi+9ZL31x5B10cfIQ=
+gitlab.com/aao-fyi/project-logos v0.0.0-20231003235337-0d4d7b372a99/go.mod h1:+D2T4oSLHfsdsrwSY23kzy7zskrAJDr8qPGEoNoYy7I=
+gitlab.com/aao-fyi/shock v0.0.0-20231031233807-0d15d1b17323 h1:9z/sd36subK+/VjlF+Guwoj6QRD/ixwIhg8XtbSLrTs=
+gitlab.com/aao-fyi/shock v0.0.0-20231031233807-0d15d1b17323/go.mod h1:E1rQHR817VPn/FSPYs76qrZge85MniflIm0nwT9i5G4=

@@ -28,6 +28,12 @@ enableRobotsTXT = true
   [module.hugoVersion]
     extended = true
     min = '0.111.0'
+  # Logo
+  [[module.imports]]
+    path = 'gitlab.com/aao-fyi/project-logos'
+  [[module.imports.mounts]]
+    source = 'arcade/'
+    target = 'assets/img/logo/'
 
 # Footer
 [menu]
