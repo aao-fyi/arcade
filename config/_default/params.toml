@@ -6,6 +6,10 @@ description = 'Mods to enhance your gaming adventures in the digital realms.'
 [header]
   brandLogo = true
   brandText = false
+  shadow = false
+
+[banner]
+  shadow = false
 
 [sidebar]
   section = false
