@@ -1,3 +1,3 @@
-module codeberg.org/aao-fyi/mods
+module codeberg.org/aao-fyi/arcade
 
 go 1.20
