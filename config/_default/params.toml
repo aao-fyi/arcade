@@ -1,4 +1,4 @@
-description = 'Mods to enhance your gaming adventures in the digital realms.'
+description = 'Enhance your gaming adventures in the digital realms.'
 
 [postCSS]
   state = true
@@ -22,6 +22,7 @@ description = 'Mods to enhance your gaming adventures in the digital realms.'
 
 [copyright]
   year = '2012'
+  link = 'https://aao.fyi/'
 
 [links]
   nexusKSP = 'https://www.nexusmods.com/kerbalspaceprogram/mods/'

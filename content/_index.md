@@ -1,6 +1,6 @@
 ---
-title: "mods.aao.fyi"
-description: "Mods to enhance your gaming adventures in the digital realms."
-keywords: "mods,games"
+title: "Arcade"
+description: "Enhance your gaming adventures in the digital realms."
+keywords: "arcade,mods,games"
 draft: false
 ---

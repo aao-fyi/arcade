@@ -1,10 +1,10 @@
 # Root
-baseURL = 'https://mods.aao.fyi/'
+baseURL = 'https://arcade.aao.fyi/'
 languageCode = 'en'
 theme = 'codeberg.org/aao-fyi/shock'
 
 # Info
-title = 'mods.aao.fyi'
+title = 'Arcade'
 copyright = 'aao.fyi'
 
 # Features
@@ -35,12 +35,12 @@ timeout = '90s'
   [[module.imports]]
     path = 'codeberg.org/aao-fyi/project-logos'
   [[module.imports.mounts]]
-    source = 'mods/'
+    source = 'arcade/'
     target = 'assets/img/logo/'
 
   # Skyrim
   [[module.imports]]
-    path = 'codeberg.org/aao-fyi/mods-skyrim'
+    path = 'codeberg.org/aao-fyi/arcade-skyrim'
   # Desolate Point
   [[module.imports.mounts]]
     source = 'desolate-point/README.md'
@@ -79,7 +79,7 @@ timeout = '90s'
 
   # Kerbal Space Program
   [[module.imports]]
-    path = 'codeberg.org/aao-fyi/mods-ksp'
+    path = 'codeberg.org/aao-fyi/arcade-ksp'
   # Fawkes
   [[module.imports.mounts]]
     source = 'fawkes/images/'
@@ -98,7 +98,7 @@ timeout = '90s'
   # Team Fortress 2
   # Nav Fortress
   [[module.imports]]
-    path = 'codeberg.org/aao-fyi/mods-tf2'
+    path = 'codeberg.org/aao-fyi/arcade-tf2'
   [[module.imports.mounts]]
     source = 'nav-fortress/README.md'
     target = 'assets/tf2/nav-fortress/README.md'
@@ -130,17 +130,17 @@ timeout = '90s'
   #    icon = 'square'
   # Footer
   [[menu.footer]]
+    identifier = 'sitemap'
+    name = 'Sitemap'
+    weight = '89'
+    url = '/sitemap.xml'
+  [[menu.footer]]
     identifier = 'privacy'
     name = 'Privacy'
     weight = '90'
     url = 'https://aao.fyi/privacy/'
   [[menu.footer]]
-    identifier = 'sitemap'
-    name = 'Sitemap'
-    weight = '10'
-    url = '/sitemap.xml'
-  [[menu.footer]]
     identifier = 'terms'
     name = 'Terms'
-    weight = '90'
+    weight = '91'
     url = 'https://aao.fyi/terms/'
