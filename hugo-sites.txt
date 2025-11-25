@@ -1,0 +1,2 @@
+https://codeberg.org/aao-fyi/arcade-2048.git
+https://codeberg.org/aao-fyi/arcade-clickinbad.git

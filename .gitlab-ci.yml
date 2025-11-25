@@ -1,0 +1,71 @@
+image: hugomods/hugo:exts
+
+stages:
+  - build
+  - deploy
+
+variables:
+  # Cloudflare variables
+  CLOUDFLARE_API_TOKEN: ""
+  CLOUDFLARE_ACCOUNT_ID: ""
+  # Project variables
+  CF_PAGES_PROJECT: ""
+  CF_PAGES_BRANCH: $CI_COMMIT_BRANCH
+
+build:
+  stage: build
+  # Install dependencies
+  before_script:
+    # Install Go, Git, NPM
+    - apk add --update --no-cache git go npm
+    # Install project NPM dependencies
+    - |
+      if [ -f package.json ]; then
+        npm ci
+      fi
+  # Build project
+  script:
+    - |
+      # Check hugo-sites.txt exists
+      if [ ! -f hugo-sites.txt ]; then
+        echo "ERROR: hugo-sites.txt not found."
+        exit 1
+      fi
+
+      while read -r HUGO_SITE_URL; do
+        # Open project
+        HUGO_SITE_NAME=$(basename "$HUGO_SITE_URL" .git)
+        HUGO_SITE_NAME=${HUGO_SITE_NAME#arcade-}
+        git clone "$HUGO_SITE_URL" "$HUGO_SITE_NAME"
+
+        # Navigate to project
+        cd "$HUGO_SITE_NAME"
+
+        # Install project NPM dependencies
+        if [ -f package.json ]; then
+          npm ci
+        fi
+
+        # Hugo build
+        hugo --destination "../public/$HUGO_SITE_NAME"
+        cd ..
+      done < hugo-sites.txt
+    - hugo
+  # Export build
+  artifacts:
+    paths:
+      - public
+
+deploy:
+  stage: deploy
+  # Install dependencies
+  before_script:
+    # Install NPM
+    - apk add --update --no-cache npm
+    # Install Cloudflare Wrangler
+    - npm install -g wrangler
+  # Deploy project
+  script:
+    # Direct upload Hugo `public` output to Cloudflare Pages
+    - wrangler pages deploy ./public --project-name=$CF_PAGES_PROJECT --branch=$CF_PAGES_BRANCH
+

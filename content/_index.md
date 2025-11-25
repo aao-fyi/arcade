@@ -2,5 +2,32 @@
 title: "Arcade"
 description: "Enhance your gaming adventures in the digital realms."
 keywords: "arcade,mods,games"
+cards:
+- title: "2048"
+  description: "Join the numbered tiles to reach 2048!"
+  icon: "grid-2x2"
+  links:
+  - title: "Launch"
+    url: "/2048/"
+    type: "primary"
+  - title: "Codeberg"
+    url: "https://codeberg.org/aao-fyi/arcade-2048"
+    brand: "codeberg"
+  - title: "GitLab"
+    url: "https://gitlab.com/aao-fyi/arcade-2048"
+    brand: "gitlab"
+- title: "ClickinBad"
+  description: "Click your life away in this Breaking Bad inspired clicker game."
+  icon: "flask-round"
+  links:
+  - title: "Launch"
+    url: "/clickinbad/"
+    type: "primary"
+  - title: "Codeberg"
+    url: "https://codeberg.org/aao-fyi/arcade-clickinbad"
+    brand: "codeberg"
+  - title: "GitLab"
+    url: "https://gitlab.com/aao-fyi/arcade-clickinbad"
+    brand: "gitlab"
 draft: false
 ---
