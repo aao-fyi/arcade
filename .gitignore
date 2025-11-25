@@ -4,7 +4,7 @@ hugo_stats.json
 jsconfig.json
 _vendor/
 resources/
-public/
+public/*
 !public/_redirects
 
 # Node
