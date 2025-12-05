@@ -42,5 +42,18 @@ cards:
   - title: "GitLab"
     url: "https://gitlab.com/aao-fyi/arcade-clickinbad"
     brand: "gitlab"
+- title: "Cubefield JS"
+  description: "Dodge the cubes in the field."
+  icon: "send"
+  links:
+  - title: "Launch"
+    url: "/cubefield-js/"
+    type: "primary"
+  - title: "Codeberg"
+    url: "https://codeberg.org/aao-fyi/arcade-cubefield-js"
+    brand: "codeberg"
+  - title: "GitLab"
+    url: "https://gitlab.com/aao-fyi/arcade-cubefield-js"
+    brand: "gitlab"
 draft: false
 ---
