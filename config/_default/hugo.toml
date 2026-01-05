@@ -94,6 +94,13 @@ timeout = '90s'
   [[module.imports.mounts]]
     source = 'galanet/README.md'
     target = 'assets/ksp/galanet/README.md'
+  # SpaceEgg
+  [[module.imports.mounts]]
+    source = 'spaceegg/images/'
+    target = 'assets/ksp/spaceegg/images/'
+  [[module.imports.mounts]]
+    source = 'spaceegg/README.md'
+    target = 'assets/ksp/spaceegg/README.md'
 
   # Team Fortress 2
   # Nav Fortress
