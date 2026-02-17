@@ -3,6 +3,9 @@ description = 'Enhance your gaming adventures in the digital realms.'
 [postCSS]
   state = true
 
+[head]
+  responseHeaders = true
+
 [header]
   brandLogo = true
   brandText = false
