@@ -76,6 +76,13 @@ timeout = '90s'
   [[module.imports.mounts]]
     source = 'horker-tusk-homestead/README.md'
     target = 'assets/skyrim/horker-tusk-homestead/README.md'
+  # Vault 106
+  [[module.imports.mounts]]
+    source = 'vault-106/images/'
+    target = 'assets/skyrim/vault-106/images/'
+  [[module.imports.mounts]]
+    source = 'vault-106/README.md'
+    target = 'assets/skyrim/vault-106/README.md'
 
   # Kerbal Space Program
   [[module.imports]]
