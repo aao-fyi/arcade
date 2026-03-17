@@ -9,7 +9,7 @@ copyright = 'aao.fyi'
 
 # Features
 disableHugoGeneratorInject = false
-disableKinds = ['RSS','taxonomy','term']
+disableKinds = ['taxonomy','term']
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -45,41 +45,23 @@ timeout = '90s'
   [[module.imports.mounts]]
     source = 'desolate-point/README.md'
     target = 'assets/skyrim/desolate-point/README.md'
-  [[module.imports.mounts]]
-    source = 'desolate-point/images/'
-    target = 'assets/skyrim/desolate-point/images/'
   # Fort Resource
   [[module.imports.mounts]]
     source = 'fort-resource/README.md'
     target = 'assets/skyrim/fort-resource/README.md'
-  [[module.imports.mounts]]
-    source = 'fort-resource/images/'
-    target = 'assets/skyrim/fort-resource/images/'
   # Rider Tombs
-  [[module.imports.mounts]]
-    source = 'rider-tombs/images/'
-    target = 'assets/skyrim/rider-tombs/images/'
   [[module.imports.mounts]]
     source = 'rider-tombs/README.md'
     target = 'assets/skyrim/rider-tombs/README.md'
   # Skeever Tail Shack
   [[module.imports.mounts]]
-    source = 'skeever-tail-shack/images/'
-    target = 'assets/skyrim/skeever-tail-shack/images/'
-  [[module.imports.mounts]]
     source = 'skeever-tail-shack/README.md'
     target = 'assets/skyrim/skeever-tail-shack/README.md'
   # Horker Tusk Homestead
   [[module.imports.mounts]]
-    source = 'horker-tusk-homestead/images/'
-    target = 'assets/skyrim/horker-tusk-homestead/images/'
-  [[module.imports.mounts]]
     source = 'horker-tusk-homestead/README.md'
     target = 'assets/skyrim/horker-tusk-homestead/README.md'
   # Vault 106
-  [[module.imports.mounts]]
-    source = 'vault-106/images/'
-    target = 'assets/skyrim/vault-106/images/'
   [[module.imports.mounts]]
     source = 'vault-106/README.md'
     target = 'assets/skyrim/vault-106/README.md'
@@ -89,22 +71,13 @@ timeout = '90s'
     path = 'codeberg.org/aao-fyi/arcade-ksp'
   # Fawkes
   [[module.imports.mounts]]
-    source = 'fawkes/images/'
-    target = 'assets/ksp/fawkes/images/'
-  [[module.imports.mounts]]
     source = 'fawkes/README.md'
     target = 'assets/ksp/fawkes/README.md'
   # GalaNet
   [[module.imports.mounts]]
-    source = 'galanet/images/'
-    target = 'assets/ksp/galanet/images/'
-  [[module.imports.mounts]]
     source = 'galanet/README.md'
     target = 'assets/ksp/galanet/README.md'
   # SpaceEgg
-  [[module.imports.mounts]]
-    source = 'spaceegg/images/'
-    target = 'assets/ksp/spaceegg/images/'
   [[module.imports.mounts]]
     source = 'spaceegg/README.md'
     target = 'assets/ksp/spaceegg/README.md'
@@ -118,12 +91,13 @@ timeout = '90s'
     target = 'assets/tf2/nav-fortress/README.md'
 
 [menu]
+  # Connect
   [[menu.connect]]
     identifier = 'nexus'
     name = 'Nexus'
     weight = '15'
     color = '#d98f40'
-    url = 'https://next.nexusmods.com/profile/aaofyi/'
+    url = 'https://nexusmods.com/profile/aaofyi/'
     [menu.connect.params]
       icon = 'shrink'
   [[menu.connect]]
@@ -134,14 +108,6 @@ timeout = '90s'
     url = 'https://kerbalx.com/aao-fyi/'
   [menu.connect.params]
       icon = 'square-x'
-  #[[menu.connect]]
-  #  identifier = 'bethesda'
-  #  name = 'Bethesda'
-  #  weight = '20'
-  #  color = '#0ceae2'
-  #  url = ''
-  #  [menu.connect.params]
-  #    icon = 'square'
   # Footer
   [[menu.footer]]
     identifier = 'sitemap'

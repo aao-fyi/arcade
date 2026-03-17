@@ -56,9 +56,7 @@
     </div>
 
     {{/* Project Images */}}
-    {{ $projectImagesID := (printf "%s-project-images" (urlize .Title)) }}
-    {{ $projectImages := resources.Match (printf "%simages/*" $projectAssetPath) }}
-    {{/* $projectImages = first 4 $projectImages */}}
+    {{ $projectImages := .Page.Resources.Match "images/*" }}
     {{ with $projectImages }}
       {{ partial "carousel" (dict "images" $projectImages) }}
     {{ end }}
