@@ -5,6 +5,6 @@ keywords: "horker tusk homestead,house,skyrim,tesv,mods"
 nexusSkyrim: "119141"
 nexusSkyrimSE: "131118"
 icon: house
-weight: 30
+weight: 20
 draft: false
 ---

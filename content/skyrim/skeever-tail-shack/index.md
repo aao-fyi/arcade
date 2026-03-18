@@ -5,6 +5,6 @@ keywords: "skeever tail shack,house,skyrim,tesv,mods"
 nexusSkyrim: "119091"
 nexusSkyrimSE: "130238"
 icon: house
-weight: 40
+weight: 20
 draft: false
 ---

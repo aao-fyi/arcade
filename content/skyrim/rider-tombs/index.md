@@ -5,6 +5,6 @@ keywords: "rider tombs,dungeon,skyrim,tesv,mods"
 nexusSkyrim: "120106"
 nexusSkyrimSE: "150373"
 icon: swords
-weight: 33
+weight: 30
 draft: false
 ---

@@ -65,6 +65,10 @@ timeout = '90s'
   [[module.imports.mounts]]
     source = 'vault-106/README.md'
     target = 'assets/skyrim/vault-106/README.md'
+  # The Chill - Frigid
+  [[module.imports.mounts]]
+    source = 'the-chill-frigid/README.md'
+    target = 'assets/skyrim/the-chill-frigid/README.md'
 
   # Kerbal Space Program
   [[module.imports]]

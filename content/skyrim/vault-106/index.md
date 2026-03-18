@@ -5,6 +5,6 @@ keywords: "vault 106,vault 101,fallout,skyrim,tesv,mods"
 nexusSkyrim: "121273"
 nexusSkyrimSE: "174779"
 icon: radiation
-weight: 60
+weight: 40
 draft: false
 ---

@@ -5,6 +5,6 @@ keywords: "desolate point,prison,skyrim,tesv,mods"
 nexusSkyrim: "119096"
 nexusSkyrimSE: "133721"
 icon: skull
-weight: 50
+weight: 30
 draft: false
 ---
